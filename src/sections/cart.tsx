@@ -63,7 +63,15 @@ const Cart = () => {
           <Checkbox defaultChecked>Ship to billing</Checkbox>
         </GridItem>
         <GridItem colSpan={2} w="full">
-          <Button w="full" size="lg">
+          <Button
+            variant="primary"
+            // bg={"orange.300"}
+            // _hover={{ bg: "orange.400" }}
+            // _active={{ bg: "orange.500" }}
+            _focus={{ outline: "none" }}
+            w="full"
+            size="lg"
+          >
             Place Order
           </Button>
         </GridItem>
